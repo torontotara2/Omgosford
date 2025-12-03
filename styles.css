@@ -1,1 +1,19 @@
 
+/* Reset & base */
+* { box-sizing: border-box; }
+html,body { margin:0; padding:0; height:100%; font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, Arial; color:#243238; background: #fbfaf8; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
+a { color:inherit; text-decoration:none; }
+img { max-width:100%; display:block; }
+
+/* Layout */
+.container { max-width:1150px; margin:0 auto; padding:0 20px; }
+
+/* Header / brand */
+header.site-header { background: linear-gradient(180deg, #f8f6f3 0%, #eef4f8 100%); border-bottom:1px solid rgba(34,50,60,0.06); }
+.topbar { display:flex; justify-content:space-between; align-items:center; gap:12px; padding:18px 0; }
+.brand { display:flex; align-items:baseline; gap:8px; font-size:1.25rem; }
+.brand .omg { font-family: 'Playfair Display', serif; font-weight:700; letter-spacing:0.06em; color:#0e2b36; font-size:1.6rem; text-transform:uppercase; }
+.brand .osford { font-family: 'Permanent Marker', cursive; font-size:1.6rem; color:#a13f2b; transform: translateY(-2px); }
+
+.nav { display:flex; gap:12px; align-items:center; }
+.nav a { font-weight:600; color:#2d4b52; padding:8px 12px; bord
